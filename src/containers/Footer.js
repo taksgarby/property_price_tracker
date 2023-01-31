@@ -8,14 +8,14 @@ const BottomFooter = styled.div`
   text-align: center;
   width: 100%;
   bottom: 0;
-  padding: 0.5rem;
+  padding: 0.3rem;
   position: absolute;
 `;
 
 const Footer = () => {
   return (
     <BottomFooter>
-      <p>Copyright &copy; Takako Onozuka</p>
+      <p>Property Price Tracker</p>
     </BottomFooter>
   );
 };

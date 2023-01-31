@@ -1,5 +1,6 @@
 import React from "react";
 import Header from "../components/navigation/Header";
+import SearchBar from "../components/SearchBar";
 import Footer from "./Footer";
 
 const PropertyContainer = () => {
@@ -7,6 +8,7 @@ const PropertyContainer = () => {
         <>
         <Header />
         <h2>This is the Container</h2>
+        <SearchBar />
         <Footer />
         </>
      );
